@@ -1,9 +1,75 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="第 1 页" id="rRfKG4Y1uFe2FbcaGGD3">
-    <mxGraphModel>
+    <mxGraphModel dx="1195" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="aiHj5P8NERkWDrNoBT0p-2" value="专家知识处理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4D9900;strokeColor=#24B300;fontColor=#FBFFF0;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="180" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aiHj5P8NERkWDrNoBT0p-3" value="数据处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aiHj5P8NERkWDrNoBT0p-4" value="数据使用" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aiHj5P8NERkWDrNoBT0p-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aiHj5P8NERkWDrNoBT0p-5" target="aiHj5P8NERkWDrNoBT0p-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aiHj5P8NERkWDrNoBT0p-5" value="&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 9px;&quot;&gt;&lt;b&gt;&amp;nbsp;&lt;span style=&quot;color: rgb(71, 77, 102); font-family: Inter;&quot;&gt;以2000以内的文&lt;/span&gt;&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 9px;&quot;&gt;&lt;span style=&quot;color: rgb(71, 77, 102); font-family: Inter;&quot;&gt;&lt;b&gt;字量划分切片&lt;/b&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="490" y="200" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aiHj5P8NERkWDrNoBT0p-6" value="文章数据" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="370" y="200" width="56" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aiHj5P8NERkWDrNoBT0p-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aiHj5P8NERkWDrNoBT0p-3" target="aiHj5P8NERkWDrNoBT0p-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aiHj5P8NERkWDrNoBT0p-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.093;entryY=0.51;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aiHj5P8NERkWDrNoBT0p-6" target="aiHj5P8NERkWDrNoBT0p-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aiHj5P8NERkWDrNoBT0p-26" value="Assets" style="childLayout=tableLayout;recursiveResize=0;strokeColor=#98bf21;fillColor=#A7C942;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="350" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aiHj5P8NERkWDrNoBT0p-27" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="aiHj5P8NERkWDrNoBT0p-26">
+          <mxGeometry width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aiHj5P8NERkWDrNoBT0p-28" value="涉及对象" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="aiHj5P8NERkWDrNoBT0p-27">
+          <mxGeometry width="90" height="30" as="geometry">
+            <mxRectangle width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiHj5P8NERkWDrNoBT0p-29" value="论点" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="aiHj5P8NERkWDrNoBT0p-27">
+          <mxGeometry x="90" width="97" height="30" as="geometry">
+            <mxRectangle width="97" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiHj5P8NERkWDrNoBT0p-30" value="论据" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=#A7C942;align=center;fontStyle=1;fontColor=#FFFFFF;html=1;" vertex="1" parent="aiHj5P8NERkWDrNoBT0p-27">
+          <mxGeometry x="187" width="93" height="30" as="geometry">
+            <mxRectangle width="93" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiHj5P8NERkWDrNoBT0p-31" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;dropTarget=0;collapsible=0;recursiveResize=0;expand=0;fontStyle=0;strokeColor=inherit;fillColor=#ffffff;" vertex="1" parent="aiHj5P8NERkWDrNoBT0p-26">
+          <mxGeometry y="30" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aiHj5P8NERkWDrNoBT0p-32" value="品牌年轻化" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="aiHj5P8NERkWDrNoBT0p-31">
+          <mxGeometry width="90" height="60" as="geometry">
+            <mxRectangle width="90" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiHj5P8NERkWDrNoBT0p-33" value="就算在老龄化社会中，也应该品牌年轻化" style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="aiHj5P8NERkWDrNoBT0p-31">
+          <mxGeometry x="90" width="97" height="60" as="geometry">
+            <mxRectangle width="97" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiHj5P8NERkWDrNoBT0p-34" value="年轻人的终身价值，白酒行业的消费群体....." style="connectable=0;recursiveResize=0;strokeColor=inherit;fillColor=inherit;align=center;whiteSpace=wrap;html=1;" vertex="1" parent="aiHj5P8NERkWDrNoBT0p-31">
+          <mxGeometry x="187" width="93" height="60" as="geometry">
+            <mxRectangle width="93" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aiHj5P8NERkWDrNoBT0p-48" value="每一个文本分段总结如下信息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="290" width="190" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
